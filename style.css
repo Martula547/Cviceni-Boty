@@ -27,14 +27,14 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 .zbozi {
     width: 670px;
     min-height: 440px;
     display: flex;
     position: relative;
-    font-size: 14px;
-    font-weight: 400;
 }
 .vizual {
     background: linear-gradient(#06d7c1, #50cc49);
@@ -68,6 +68,7 @@ body {
 .nazev {
     font-size: 20px;
     font-weight: 500px;
+    text-transform: uppercase;
 }
 .cenovka {
     position: absolute;
@@ -77,5 +78,19 @@ body {
     text-align: right;
 }
 .vybrana {
-    color: #f15f42;
+    color: #f15f42; 
+}
+.produkt {
+    color: #959595;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+ul.velikosti {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
