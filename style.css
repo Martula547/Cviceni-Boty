@@ -77,9 +77,6 @@ body {
     color: white;
     text-align: right;
 }
-.vybrana {
-    color: #f15f42; 
-}
 .produkt {
     color: #959595;
 }
@@ -92,5 +89,16 @@ ul.velikosti {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
+}
+ul.velikosti li {
+    line-height: 30px;
+}
+ul.velikosti li.vybrana {
+    color: #f15f42; 
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f15f42; 
+    border-radius: 50%;
+    text-align: center;
 }
